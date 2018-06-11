@@ -22,7 +22,7 @@ Download From: [https://spark.apache.org/downloads.html](https://spark.apache.or
 
   
 
-![Screenshot]('/ss1.png'  "Download Spark")
+![Screenshot](/ss1.png  "Download Spark")
 
   
 
@@ -47,4 +47,4 @@ Unzip Spark: `tar xvf spark-1.6.0-bin-hadoop2.6.tgz`
 + Launch Clusters:  `./spark-ec2 --key-pair=aws4980 --identity-file=aws4980.pem --region=us-west-2 --zone=us-west-2a -s 8 --instance-type=t2.micro launch sheng4980`
 
 # Working Screenshoots
-![Screenshot]('/ss2.png'  "Spark Running")
+![Screenshot](/ss2.png "Spark Running")

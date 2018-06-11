@@ -55,4 +55,5 @@ __About 20 Minutes After Mater and Slave Cluster Created__
 
 ![Screenshot](/ss3.png "Clusters Created")
 
-
+## Check EC2 Instaces on AWS site
+![Screenshot](/ss4.png "Clusters on AWS")

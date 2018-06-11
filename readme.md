@@ -46,5 +46,13 @@ Unzip Spark: `tar xvf spark-1.6.0-bin-hadoop2.6.tgz`
 + Change .pem file permission `chmod 400 "aws4980.pem"`
 + Launch Clusters:  `./spark-ec2 --key-pair=aws4980 --identity-file=aws4980.pem --region=us-west-2 --zone=us-west-2a -s 8 --instance-type=t2.micro launch sheng4980`
 
-# Working Screenshoots
+## Working Screenshoots
 ![Screenshot](/ss2.png "Spark Running")
+
+__About 20 Minutes After Mater and Slave Cluster Created__
+
+## Compeletion of Creating Clusters
+
+![Screenshot](/ss3.png "Clusters Created")
+
+

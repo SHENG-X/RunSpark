@@ -5,6 +5,7 @@
 + Hit Connet to find out ssh command to connect `ssh -i "aws4980.pem" root@ec2-18-237-83-13.us-west-2.compute.amazonaws.com`
 
 __Screen Shot of Connected__
+
 ![ScreenShot](./ss_1.png)
 
 ## Create Kmeans Folder
@@ -19,12 +20,14 @@ Move the *.jar and *.txt into the Kmeans folder
 `./spark-ec2/copy-dir Kmeans`
 
 __Screenshot__
+
 ![Screenshot](./ss_2.png)
 
 ## Upload the data file in the HDFS
 `ephemeral-hdfs/bin//hadoop fs -put Kmeans/vectors.txt /data.txt`
 
 __Screenshot__
+
 ![Screenshot](./ss_3.png)
 
 ## Submit a Task, Set the Parameters

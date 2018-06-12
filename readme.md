@@ -44,7 +44,7 @@ Unzip Spark: `tar xvf spark-1.6.0-bin-hadoop2.6.tgz`
 	+ `export AWS_ACCESS_KEY_ID=DJAKFNANFKLWCPGNHA`
 	+ `export AWS_SECRECT_ACCESS_KEY=bN120Nnna12190jfqfioPEFZL9`
 + Change .pem file permission `chmod 400 "aws4980.pem"`
-+ Launch Clusters:  `./spark-ec2 --key-pair=aws4980 --identity-file=aws4980.pem --region=us-west-2 --zone=us-west-2a -s 8 --hadoop-major-version=2 --instance-type=t2.micro --spark-version=1.5.1 --hadoop-major-version=yarn launch sheng4980 `
++ Launch Clusters:  `./spark-ec2 --key-pair=aws4980 --identity-file=aws4980.pem --region=us-west-2 --zone=us-west-2a -s 8 --instance-type=t2.micro --spark-version=1.5.1 --hadoop-major-version=yarn launch sheng4980 `
 
 ## Working Screenshoots
 ![Screenshot](/ss2.png "Spark Running")

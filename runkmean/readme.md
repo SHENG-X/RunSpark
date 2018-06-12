@@ -1,10 +1,10 @@
-# Run KMeans on EC2 cluster
+# Run KMeans on EC2 cluster [Phase one]
 
 ## Connect to Master from [Ubuntu Server]
 + Find master cluster on AWS instances dash board
 + Hit Connet to find out ssh command to connect `ssh -i "aws4980.pem" root@ec2-18-237-83-13.us-west-2.compute.amazonaws.com`
 
-__Screen Shot of Connected__
+__Screenshot of Connected__
 
 ![ScreenShot](./ss_1.png)
 
